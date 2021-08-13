@@ -8,7 +8,7 @@ async def start(client, message):
         [InlineKeyboardButton("Support Group", url="https://t.me/Mercy_bots")],
         [InlineKeyboardButton(
             "Report Bugs 😊", url="https://t.me/Mercy_Bots")],
-       [InlineKeyboardButton("🍭Dev", url="https://t.me/ok_bie_bot)]
+       [InlineKeyboardButton("🍭Dev", url="https://t.me/ok_bie_bot")]
     ])
     welcomed = f"Hey <b>{message.from_user.first_name}</b>\n/help for More info"
     await message.reply_text(welcomed, reply_markup=joinButton)
