@@ -6,6 +6,7 @@ async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Support Group", url="https://t.me/TeamLadz_bothub")],
+       [InlineKeyboardButton(text="Help", callback_data="help_back")],
         [InlineKeyboardButton(
             "Report Bugs 😊", url="https://t.me/TeamLadz_Bothub")],
        [InlineKeyboardButton("🍭Dev", url="https://t.me/ok_bie_bot")]
